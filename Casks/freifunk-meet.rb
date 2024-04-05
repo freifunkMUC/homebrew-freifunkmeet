@@ -3,7 +3,7 @@ cask "freifunk-meet" do
   sha256 "6232ecaa54f1788046f79f7aef9d0b5cb06b7203851c24e633e758fbdaa70982"
 
   url "https://github.com/freifunkMUC/jitsi-meet-electron/releases/download/v#{version}/ffmuc-meet.dmg"
-  appcast "https://github.com/FreifunkMUC/jitsi-meet-electron/releases.atom"
+  livecheck "https://github.com/FreifunkMUC/jitsi-meet-electron/releases.atom"
   name "FreifunkMeet"
   homepage "https://github.com/FreifunkMUC/jitsi-meet-electron"
 
